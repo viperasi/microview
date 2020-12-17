@@ -9,7 +9,9 @@
 .idea/**/shelf
 
 .idea/
-.gitee/
+
+logs/
+target/
 
 *.iml
 
