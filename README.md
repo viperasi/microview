@@ -32,12 +32,12 @@
 1.  打开`http://localhost:8090`为主入口
 2.  右上角可以切换应用
 
-#### 项目目录接口
+#### 项目目录
 
-microview
-├─microview-api(业务接口包)
-├─microview-common(通用工具包)
-├─microview-main(主入口服务)
-|└ux(前端目录)
-├─microview-goods(物品管理服务)
-└microview-user(用户管理)
+microview  
+├─microview-api(业务接口包)  
+├─microview-common(通用工具包)  
+├─microview-main(主入口服务)  
+|└ux(前端目录)  
+├─microview-goods(物品管理服务)  
+└microview-user(用户管理)  
