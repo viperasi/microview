@@ -3,7 +3,7 @@ import Vue from 'vue'
 import HttpStatus from 'http-status'
 
 let instance = axios.create({
-  baseURL: 'http://192.168.1.245:8080'
+  baseURL: 'http://localhost:8080'
 })
 
 instance.interceptors.request.use(config => {

@@ -14,7 +14,7 @@ public class MainController {
     public List<MicroView> mview() {
         List<MicroView> mvlist = new ArrayList<>();
         MicroView user_mv = new MicroView();
-        user_mv.setEntry("//192.168.1.245:8092");
+        user_mv.setEntry("//localhost:8092");
         user_mv.setName("user");
         user_mv.setContainer("#appContainer");
         user_mv.setActiveRule("/user");
@@ -22,7 +22,7 @@ public class MainController {
         user_mv.setIcon("fas fa-fw fa-users");
         mvlist.add(user_mv);
         MicroView goods_mv = new MicroView();
-        goods_mv.setEntry("//192.168.1.245:8091");
+        goods_mv.setEntry("//localhost:8091");
         goods_mv.setName("goods");
         goods_mv.setContainer("#appContainer");
         goods_mv.setActiveRule("/goods");
